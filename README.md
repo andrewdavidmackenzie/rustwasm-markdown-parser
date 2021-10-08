@@ -7,3 +7,14 @@ can also be found in this repo https://github.com/granjef3/rustwasm-markdown-par
 # to run it locally
 `wrangler dev`
 then open the web page at the Url echoed to the terminal 
+
+# run tests
+Run wasm-bindgen tests using
+`wasm-pack test --chrome`
+
+or if you have chromedriver installed (and working!)
+
+`wasm-pack test --headless --chrome`
+
+# publish 
+`wrangler publish` then visit the site to see the markdown shown as HTML.
