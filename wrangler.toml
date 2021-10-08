@@ -1,0 +1,9 @@
+name = "rustwasm-markdown-parser"
+type = "rust"
+account_id = "7c383e0fc073dce9fc1a6d69a1a66d3c"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[vars]
+WORKERS_RS_VERSION = "0.0.6"

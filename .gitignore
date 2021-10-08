@@ -1,0 +1,8 @@
+/target
+**/*.rs.bk
+wasm-pack.log
+build/
+.cargo-ok
+Cargo.lock
+worker/generated/**
+
